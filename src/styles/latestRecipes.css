@@ -1,0 +1,49 @@
+.latestRecipes-container {
+	width: 90%;
+	max-width: 1300px;
+	margin: 2rem auto;
+}
+
+.latestRecipes {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 20px;
+}
+
+.latestRecipes-card-img {
+	aspect-ratio: 1/1;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.latestRecipes-card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.latestRecipes-card p {
+	font-size: var(--fs-sm);
+	font-weight: 600;
+	line-height: 3;
+}
+
+.latestRecipes-container button {
+	background: none;
+	border: 1px solid black;
+	font-size: var(--fs-sm);
+	font-weight: 500;
+	border-radius: 2px;
+	padding: 10px 20px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 20px;
+	transition: 0.2s linear;
+}
+
+.latestRecipes-container button:hover {
+	border-color: #ff642f;
+}

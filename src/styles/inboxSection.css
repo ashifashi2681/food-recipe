@@ -1,0 +1,59 @@
+.inbox-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffd7c9;
+    padding-block: 50px;
+}
+.inbox-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: var(--fs-xxl);
+    font-weight: 600;
+    line-height: 0.9;
+}
+.inbox-sub-title{
+    font-weight: 400;
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    margin-block: 12px;
+}
+.inbox-input{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.inbox-input input {
+    border: none;
+    background: #ffff;
+    padding: 15px 5px;
+    font-size: var(--fs-sm);
+    width: 100%;
+}
+
+.inbox-input button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-block: 2px;
+    background: #ff642f;
+    color: white;
+    font-size: var(--fs-sm);
+    padding-inline: 25px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.inbox-section-container span {
+    font-size: var(--fs-xs);
+}
+
+.inbox-section-container span > a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #ff642f;
+    text-underline-offset: 4px;
+}
