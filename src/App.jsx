@@ -4,12 +4,12 @@ import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-  <>
-    <Routes>
-      <Route path='/' element={<HomePage/>}/>
-    </Routes>
-  </>
-  )
+		<>
+			<Routes>
+				<Route path="/food-recipe" element={<HomePage />} />
+			</Routes>
+		</>
+  );
 }
 
 export default App
