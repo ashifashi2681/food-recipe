@@ -14,7 +14,7 @@ function Nav() {
 			<div className="">
 				<img
 					className="md:w-36 w-24"
-					src="/images/logo.png"
+					src="./images/logo.png"
 					alt="logo"
 				/>
 			</div>

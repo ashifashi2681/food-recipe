@@ -15,7 +15,7 @@ function Footer() {
 			<div className="footer-row1">
 				<div className="footer-left">
 					<div className="footer-logo">
-						<img src="/images/logo.png" alt="logo" />
+						<img src="./images/logo.png" alt="logo" />
 					</div>
 					<div className="footer-text">
 						<p>
